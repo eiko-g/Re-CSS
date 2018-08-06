@@ -1,13 +1,15 @@
 $version: "0.0.1";
 /**
  * Colors setting
+ * Colors from NipponColors.com
  */
 
-$color-red: #CB1B45;
-$color-yellow: #F7D94C;
-$color-green: #86C166;
-$color-blue: #58B2DC;
-$color-purple: #592C63;
-$color-white: #fff;
-$color-black: #000;
-$color-grey: #ccc;
+$color-red: #CB1B45 !default; // 紅, KURENAI 
+$color-yellow: #F7D94C !default; // 菜の花, NANOHANA
+$color-green: #86C166 !default; // 苗, NAE
+$color-blue: #58B2DC !default; // 空, SORA
+$color-purple: #592C63 !default; // 紫, MURASAKI
+$color-white: #fff !default;
+$color-black: #080808 !default; // 黒, KURO
+$color-grey: #828282 !default; // 灰, HAI
+$color-primary: $color-blue;

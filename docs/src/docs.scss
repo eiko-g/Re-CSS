@@ -1,0 +1,24 @@
+@import "../../src/var";
+.color-blocks {
+    display: flex;
+    .color-block {
+        flex-wrap: wrap;
+        width: 100px;
+        height: 100px;
+        &.red {
+            background-color: $color-red;
+        }
+        &.yellow {
+            background-color: $color-yellow;
+        }
+        &.green {
+            background-color: $color-green;
+        }
+        &.blue {
+            background-color: $color-blue;
+        }
+        &.purple {
+            background-color: $color-purple;
+        }
+    }
+}

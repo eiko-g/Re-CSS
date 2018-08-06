@@ -1,0 +1,30 @@
+/** Colors setting Colors from NipponColors.com */
+.color-blocks {
+    display: flex;
+}
+
+.color-blocks .color-block {
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+}
+
+.color-blocks .color-block.red {
+    background-color: #cb1b45;
+}
+
+.color-blocks .color-block.yellow {
+    background-color: #f7d94c;
+}
+
+.color-blocks .color-block.green {
+    background-color: #86c166;
+}
+
+.color-blocks .color-block.blue {
+    background-color: #58b2dc;
+}
+
+.color-blocks .color-block.purple {
+    background-color: #592c63;
+}
