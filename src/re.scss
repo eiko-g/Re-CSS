@@ -1,5 +1,11 @@
 // File Begins
 @import "var";
-/*! ReCss v#{$version} | MIT License | github.com/eimiko/Re-CSS */
+/*! ReCss v#{$version} | MIT License | github.com/eiko-g/Re-CSS */
 
 @import "normalize";
+
+p {
+    color: $color-red;
+    color: $color-red-light;
+    color: $color-red-dark;
+}

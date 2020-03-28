@@ -1,30 +1,34 @@
-/** Colors setting Colors from NipponColors.com */
+/**
+ * Colors setting
+ */
 .color-blocks {
-    display: flex;
+  display: flex;
 }
-
 .color-blocks .color-block {
-    flex-wrap: wrap;
-    width: 100px;
-    height: 100px;
+  flex-wrap: wrap;
+  width: 100px;
+  height: 100px;
 }
-
 .color-blocks .color-block.red {
-    background-color: #cb1b45;
+  background-color: #dd4b39;
 }
-
+.color-blocks .color-block.red:hover {
+  background-color: #e05d4d;
+}
+.color-blocks .color-block.red:focus {
+  background-color: #d63825;
+}
 .color-blocks .color-block.yellow {
-    background-color: #f7d94c;
+  background-color: #F7D94C;
 }
-
 .color-blocks .color-block.green {
-    background-color: #86c166;
+  background-color: #86C166;
 }
-
 .color-blocks .color-block.blue {
-    background-color: #58b2dc;
+  background-color: #58B2DC;
+}
+.color-blocks .color-block.purple {
+  background-color: #592C63;
 }
 
-.color-blocks .color-block.purple {
-    background-color: #592c63;
-}
+/*# sourceMappingURL=docs.css.map */

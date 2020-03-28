@@ -7,6 +7,12 @@
         height: 100px;
         &.red {
             background-color: $color-red;
+            &:hover {
+                background-color: $color-red-light;
+            }
+            &:focus{
+                background-color: $color-red-dark;
+            }
         }
         &.yellow {
             background-color: $color-yellow;
