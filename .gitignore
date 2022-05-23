@@ -289,3 +289,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/node,sass,code,macos,windows,webstorm
 
 .idea
+cache/css/**
